@@ -5,8 +5,7 @@ import { generateSidebar } from "vitepress-sidebar";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "薪火笔记社",
-  description:
-    "用一门笔记改变一门课，期末考研竞赛科研社团都涉及的超好用HIT笔记网站！",
+  description: "用一门笔记改变一门课，期末考研竞赛科研社团都涉及的超好用HIT笔记网站！",
   head: [["link", { rel: "icon", href: "/logo.png" }]],
   vite: {
     plugins: [tailwindcss()],
@@ -52,7 +51,8 @@ export default defineConfig({
     ]),
 
     footer: {
-      message: "Released under the MPL-2.0 license",
+      message: `Released under the MPL-2.0 license
+⚠️ 重要声明：本项目内所有电子教材资源均来源于 Z-Library 公开共享平台，仅作个人学习交流使用，不用于商业牟利。`,
       copyright: "Copyright © 2024-present, 薪火笔记社. CC BY-NC-SA 4.0",
     },
 
